@@ -1,0 +1,24 @@
+{
+  "name": "relevator-content-index",
+  "version": "0.0.0",
+  "description": "API for accessing EleasticSearch  for content",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:relevator-content-index.git"
+  },
+  "author": "Brad Murry",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^5.0.0",
+    "hapi": "^8.1.0",
+    "joi": "^5.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-nodemon": "^1.0.5"
+  }
+}
