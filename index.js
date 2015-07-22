@@ -6,7 +6,7 @@ var server = new Hapi.Server();
 server.connection({ port : port })
 
 // routes
-//server.route(require('./lib/routes'));
+server.route(require('./lib/routes'));
  
 server.start(function() {
     console.log('Running on ' + port);

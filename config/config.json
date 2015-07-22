@@ -1,0 +1,16 @@
+{
+  "development": {
+      "host": "https://mj690pxa:s6cpme63i6s2e99p@spruce-5888124.us-east-1.bonsai.io/",
+      "indexName": "relevator",
+      "typeName": "content"
+  },
+  "test": {
+      "host": "https://mj690pxa:s6cpme63i6s2e99p@spruce-5888124.us-east-1.bonsai.io/",
+      "indexName": "relevator",
+      "typeName": "content"
+  },
+  "production": {
+      "host": "https://mj690pxa:s6cpme63i6s2e99p@spruce-5888124.us-east-1.bonsai.io/",
+      "indexName": "relevator",
+      "typeName": "content"
+}
